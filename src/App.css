@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #324d6e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('https://i.imgur.com/r3D5j3b.png');
+  background-size: cover;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Main-body {
+  background-image: url('https://i.imgur.com/QZjwnhZ.png');
+  background-size: cover;
+  width: 820px;
+  height: 700px;
+  padding-left: 30px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Main-body input {
+  font-family: 'Sniglet';
+  font-size:large;
+  background-color: #faf7f3;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 12px;
+  margin-bottom: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.Preferences {
+  font-family: 'Sniglet';
+  font-size:large;
+  background-color: #faf7f3;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  width: 427px;
+  align-items: center;
+  text-align: center;
+}
+
+.Generate-button {
+  font-family: 'Sniglet';
+  background-color: #dfbeb6;
+  border: none;
+  border-radius: 25px;
+  color: rgb(70, 53, 53);
+  padding: 20px 40px;
+  margin-top: auto;
+  margin-bottom: 80px;
+  font-size: large;
+  transition: background-color 0.5s ease;
+}
+
+
+.Generate-button:hover {
+  background-color: #e89c90;
+  cursor: pointer;
+}
+
+.Output-Text {
+  font-family: 'Sniglet';
+  font-size:large;
+  color: rgb(83, 78, 78);
+  background-color: #faf7f3;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 12px;
+  width: 655px;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
